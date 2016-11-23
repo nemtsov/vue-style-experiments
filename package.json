@@ -9,6 +9,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "node-sass": "^3.13.0",
+    "sass-loader": "^4.0.2",
     "vue": "^2.1.0"
   },
   "devDependencies": {

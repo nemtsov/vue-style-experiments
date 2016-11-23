@@ -1,14 +1,15 @@
 <template>
   <div :class="$style.child">
     <p>child</p>
-    <grand-child></grand-child>
+    <grand-child :userStyle="{message: userStyle.message}"></grand-child>
   </div>
 </template>
 
 <script>
 import GrandChild from './GrandChild'
 export default {
-  components: { GrandChild }
+  components: { GrandChild },
+  props: [ 'userStyle' ]
 }
 </script>
 

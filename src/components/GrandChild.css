@@ -1,0 +1,8 @@
+.grandchild {
+  color: blue;
+}
+
+.message {
+  padding: 10px;
+  border: 2px dashed #ccc;
+}
