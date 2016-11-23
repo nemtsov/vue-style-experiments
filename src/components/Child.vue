@@ -14,6 +14,6 @@ export default {
 
 <style module>
 .child {
-  color: red;
+  color: green;
 }
 </style>

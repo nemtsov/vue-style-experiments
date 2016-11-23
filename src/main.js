@@ -1,9 +1,7 @@
 import Vue from 'vue'
-import App from './App'
+import Parent from './components/Parent'
 
-/* eslint-disable no-new */
 new Vue({
   el: '#app',
-  template: '<App/>',
-  components: { App }
+  render: (h) => h(Parent)
 })
