@@ -1,6 +1,6 @@
 <template>
   <div :class="$style.grandchild">
-    <p :class="userStyle.message">grandchild</p>
+    <p :class="userStyle.message || $style.message">grandchild</p>
   </div>
 </template>
 

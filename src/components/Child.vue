@@ -1,7 +1,7 @@
 <template>
   <div :class="$style.child">
     <p>child</p>
-    <grand-child :userStyle="{message: userStyle.message}"></grand-child>
+    <grand-child :userStyle="userStyle"></grand-child>
   </div>
 </template>
 
